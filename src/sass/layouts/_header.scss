@@ -1,0 +1,35 @@
+.navigationBar{
+	color: $color-black;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	animation: moveInTop .8s ease-in;
+}
+
+.logoName {
+	font-family: $font-3;
+	font-size: 5rem;
+	display: inline;
+	letter-spacing: 5px;
+}
+
+.navigation {
+	font-family: $font-3;
+	font-size: 1.5rem;
+	list-style-type: none;
+	margin: 0;
+	padding-top: 1rem;
+	float: right;
+	height: 5rem;
+}
+
+.navi-list {
+	display: inline;
+	color: red;
+	height: 15rem;
+	margin-top: 1.5rem;
+	text-decoration: none;
+
+	&:not(:last-child) {
+		margin-right: 4rem;
+	}
+}

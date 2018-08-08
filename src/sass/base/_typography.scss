@@ -1,0 +1,18 @@
+body {
+	font-family: $font-2;
+	font-weight: 400;
+/*	font-size: 16px;*/
+	box-sizing: border-box;
+}
+
+.heading-tertiary {
+	font-family: $font-1;
+	font-size: 35px;
+}
+
+.paragraph {
+	font-size: 2rem;
+	text-align: left;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}

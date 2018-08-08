@@ -1,0 +1,12 @@
+
+.small-pic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	&:hover {
+
+		outline: .5rem solid $color-grey;
+		box-shadow: 0 2.5rem 4rem rgba(black, .5);
+	}
+}

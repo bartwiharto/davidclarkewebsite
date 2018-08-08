@@ -19,22 +19,22 @@ class App extends Component {
 
             <main>
             <Route
-              exact path={routes.HOME}
+              exact path={routes}
               component={() => <Home />}
             />
 
             <Route
-              exact path={routes.ABOUT}
+              exact path={routes}
               component={() => <About />}
             />
 
             <Route
-              exact path={routes.PORTFOLIO}
+              exact path={routes}
               component={() => <Portfolio />}
             />
 
             <Route
-              exact path={routes.CONTACT}
+              exact path={routes}
               component={() => <Contact />}
             /> 
             </main>   
